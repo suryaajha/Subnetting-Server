@@ -1,0 +1,30 @@
+{
+    "networks": [
+        {
+            "192.168.1.0/24": {
+                "subnets": [
+                    {
+                        "192.168.1.128/25": {
+                            "name": "Subnet1"
+                        }
+                    }
+                ], 
+                "name": "Printer 101 Hack network", 
+                "last_addr": "", 
+                "first_addr": "", 
+                "subnet_mask": "255.255.255.0", 
+                "ip_used": []
+            }
+        }, 
+        {
+            "192.168.1.0/24": {
+                "subnets": [], 
+                "name": "Hacking Class network", 
+                "last_addr": "", 
+                "first_addr": "", 
+                "subnet_mask": "255.255.255.0", 
+                "ip_used": []
+            }
+        }
+    ]
+}
